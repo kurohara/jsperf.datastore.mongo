@@ -1,4 +1,10 @@
-
+/**
+ * jsperf.datastore.mongo.js
+ * MongoDB data store module for jsperf suite.
+ * 
+ *
+ * Copyright(C) 2015 Hiroyoshi Kurohara(Microgadget,inc.) all rights reserved.
+ */
 var MongoClient = require('mongodb').MongoClient;
 
 var MongoStore = function MongoStore() {
